@@ -1,0 +1,36 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary and log files
+*.tmp
+*.temp
+*.log
+*.bak
+*.old
+.cache/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Lab artifacts that may contain sensitive or oversized data
+evidence/raw/
+captures/
+*.pcap
+*.pcapng
+*.dump
+*.memory
